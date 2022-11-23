@@ -4,7 +4,7 @@ public class CalculatorTest {
     Calculator calculator = new Calculator();
     @Test
     void additional(){
-        assertEquals(2,calculator.add(1,1));
+        assertEquals(2,calculator.add(2,1));
     }
     @Test
     void difference(){
@@ -12,7 +12,7 @@ public class CalculatorTest {
     }
     @Test
     void multiplication(){
-        assertEquals(12,calculator.mul(4,3));
+        assertEquals(12,calculator.mul(5,3));
     }
     @Test
     void division(){
